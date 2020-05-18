@@ -1,0 +1,55 @@
+.form{
+    width:50%;
+    height:auto;
+
+    color:white;
+    box-sizing: border-box;
+}
+
+.thankyou{
+    width:50%;
+    height:auto;
+
+   
+    padding:20px;
+    box-sizing: border-box;
+    color:white;
+}
+
+.retrieveForm{
+    width:50%;
+    color: white;
+}
+#retrieve_email{
+    color: white;
+}
+body{
+  min-height: 100vh;
+  background: radial-gradient(ellipse at bottom, #013155 0%, #01162E 100%);
+ 
+}
+.star{
+    position: absolute;
+    background: white;
+    border-radius: 50px;
+    animation: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.type-1{
+    width:1px;
+    height: 1px;
+}
+.type-2{
+    width:2px;
+    height:3px;
+}
+.type3{
+    width:3px;
+    width:3px;
+}
+@keyframes move{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-100px);}
+}
+

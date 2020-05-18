@@ -1,0 +1,15 @@
+.template{
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    
+}
+.input{
+    margin-left:40px;
+    background-color: #01162E;
+    color:white;
+ 
+}
+.label{
+  color: white;
+}
